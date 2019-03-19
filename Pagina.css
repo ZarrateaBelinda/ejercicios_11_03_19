@@ -1,0 +1,23 @@
+
+P  { 
+    font-size: 12pt;
+    font-family:helvetica;
+    font-weight: normal;
+    float:right;
+   }
+
+H6{  
+     font-size: 36pt;
+     font-family: Calibri;
+     text-align: Center;
+     color: black;
+
+   }
+
+
+BODY { background-color:pink;
+       font-family: arial;
+       color: black;
+       border-style:inset;
+       border-width:10px;
+     }

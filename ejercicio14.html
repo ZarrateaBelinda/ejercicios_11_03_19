@@ -1,0 +1,82 @@
+<!DOCTYPE html public>
+<html>
+<head>
+<link rel=stylesheet type="text/css" href="Pagina.css">
+<title> Ejercicio 14. </title>
+</head>
+<body>
+<Body bgcolor="pink">
+<form action="registrardatos.php" method="post">
+
+<fieldset> 
+<legend>Datos personales</legend><h5>
+<label for="nombre"> Apellido y nombre:</label>
+<input type="text" name="nombre" size="20" id="nombre"><br><br>
+Documento de identidad:
+<input type="text" name="dni" size="8"><br><br>
+Fecha de nacimiento:
+<input type="text" name="fechanacimiento" size="12"><br><br>
+Dirección:
+<input type="text" name="direccionpersona" size="30"><br><br>
+
+
+Ingrese su contraseña:
+<input type="password" name="clave" size="12">
+<br>
+<br>
+
+Ingrese su nivel académico:<br>
+<input type="radio" name="estudios" value="1">Sin estudios <br>
+<input type="radio" name="estudios" value="2">Primario <br>
+<input type="radio" name="estudios" value="3">Secundario <br>
+<input type="radio" name="estudios" value="4">Universitario <br><br>
+
+Seleccione su pais: <br> 
+<select name="pais">
+ <option value="1">Argentina</option>
+ <option value="2">España</option>
+ <option value="3">México</option>
+</select>
+<br>
+<br>
+
+Seleccione su provincia: <br>
+<select name="colores[]" size="4" multiple>
+ <option value="1">Buenos Aires</option>
+ <option value="2">Entre Rios</option>
+ <option value="3">San Luis</option>
+ <option value="4">Tucuman</option>
+ <option value="5">Corrientes</option>
+ <option value="6">Rio Negro</option>
+ <option value="7">Neuquén</option>
+ <option value="8">Salta</option>
+</select>
+<br>
+<br>
+
+Seleccione el rubro deseado para trabajar: <br>
+<select name="trabajo">
+<optgroup label="Elaboracion de productos">
+ <option value="1">Carpintero</option>
+ <option value="2">Modista</option>
+</optgroup>
+<optgroup label="Materia primas">
+ <option value="7">Agricultor</option>
+ <option value="8">Minero</option>
+ <option value="9">Pescador</option>
+</optgroup>
+</select>
+<br>
+<br>
+Ingrese un comentario: <br>
+<textarea name="comentarios" rows="5" cols="60"></textarea>
+<br>
+<br>
+<button type="submit">Enviar</button>
+</fieldset>
+</style>
+</form>
+
+
+</body>
+</html>
